@@ -1,0 +1,6 @@
+ram
+hdd
+id
+power supply
+video card
+processor

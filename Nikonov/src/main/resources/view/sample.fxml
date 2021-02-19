@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="749.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.controller.Controller">
+    <children>
+        <TableView fx:id="tableView" prefHeight="400.0" prefWidth="421.0">
+            <columns>
+                <TableColumn fx:id="columnId" prefWidth="25.0" text="Id" />
+                <TableColumn fx:id="columnProcessor" prefWidth="103.0" text="Processor" />
+                <TableColumn fx:id="columnVideoCard" prefWidth="126.0" text="VideoCard" />
+                <TableColumn fx:id="columnRam" prefWidth="40.0" text="RAM" />
+                <TableColumn fx:id="columnHdd" prefWidth="31.0" text="HDD" />
+                <TableColumn fx:id="columnPowerSupply" prefWidth="95.0" text="Power Supply" />
+            </columns>
+        </TableView>
+        <Button fx:id="buttonNew" layoutX="580.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="51.0" text="New" />
+        <Button fx:id="buttonEdit" layoutX="632.0" layoutY="347.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="51.0" text="Edit" />
+        <Button fx:id="buttonDelete" layoutX="684.0" layoutY="347.0" mnemonicParsing="false" text="Delete" />
+        <Label layoutX="484.0" layoutY="18.0" prefHeight="17.0" prefWidth="102.0" text="Processor" />
+        <Label layoutX="484.0" layoutY="44.0" prefHeight="17.0" prefWidth="102.0" text="Video Card" />
+        <Label layoutX="484.0" layoutY="69.0" prefHeight="17.0" prefWidth="102.0" text="RAM" />
+        <Label layoutX="484.0" layoutY="95.0" prefHeight="17.0" prefWidth="102.0" text="HDD" />
+        <Label layoutX="484.0" layoutY="120.0" prefHeight="17.0" prefWidth="102.0" text="Power Supply (W)" />
+        <TextField fx:id="textFieldProcessor" layoutX="586.0" layoutY="14.0" prefHeight="17.0" prefWidth="149.0" />
+        <TextField fx:id="textFieldVideoCard" layoutX="586.0" layoutY="40.0" />
+        <TextField fx:id="textFieldRam" layoutX="586.0" layoutY="65.0" />
+        <TextField fx:id="textFieldHdd" layoutX="586.0" layoutY="91.0" />
+        <TextField fx:id="textFieldPowerSupply" layoutX="586.0" layoutY="116.0" />
+    </children>
+</AnchorPane>
